@@ -6,7 +6,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-🔗 **Live Demo:** [http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com](http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com)
+🔗 **Live Demo:** [http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com](http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com)(Note: This endpoint was active during development but has been decommissioned to avoid AWS charges. The screenshots demonstrate the working functionality.)
 
 ## 📋 Project Overview
 
@@ -30,13 +30,11 @@ The infrastructure is designed around a containerized web application deployed o
 
 ## 🖥️ Application in Action
 
-![Application Screenshot](architecture/application-screenshot.png)
+![Application Screenshot](architecture/nginx.png)
+![Application Screenshot](architecture/alb.png)
+![Application Screenshot](architecture/create_complete.png)
 
-The screenshot above shows the application successfully deployed and running on AWS using the CDK infrastructure. The containerized Nginx web server demonstrates:
-- The successful deployment of the container
-- Proper configuration of the load balancer
-- Functioning health checks
-- Seamless container orchestration with ECS Fargate
+The screenshots above show CloudFormation stack was successfully created using AWS CDK (Cloud Development Kit), a healthy web server and ALB.
 
 ---
 
@@ -170,5 +168,5 @@ This allows for demonstration of container deployment and orchestration without 
 ## 👤 Author
 
 **Jimmy Peralta**  
-🛠️ Systems Support Engineer | ☁️ AWS Cloud Enthusiast  
+🛠 Associate Media Systems Enigneer️|| ☁️ AWS Cloud Enthusiast  
 🌐 [https://www.deployjimmy.com](https://www.deployjimmy.com)
