@@ -6,7 +6,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-🔗 **Live Demo:** [http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com](http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com)(Note: This endpoint was active during development but has been decommissioned to avoid AWS charges. The screenshots demonstrate the working functionality.)
+🔗 **Not Live:** [http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com](http://cdkinfrastructurestack-alb123456789.us-east-1.elb.amazonaws.com)(Note: This endpoint was active during development but has been decommissioned to avoid AWS charges. The screenshots demonstrate the working functionality.)
 
 ## 📋 Project Overview
 
@@ -162,6 +162,12 @@ This allows for demonstration of container deployment and orchestration without 
 - [Containerized Application on AWS ECS Fargate](https://github.com/jimmyperalta-dev/aws-ecs-fargate-application)
 - [Serverless API with AWS Lambda & DynamoDB](https://github.com/jimmyperalta-dev/aws-serverless-dynamodb-api)
 - [Static Website on AWS S3](https://github.com/jimmyperalta-dev/aws-s3-static-website)
+
+---
+
+## </> Development Notes
+
+This project was developed with assistance from AI tools like Claude to code and enhance documentation quality. All implementations were validated and tested by me.
 
 ---
 
